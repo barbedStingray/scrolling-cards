@@ -4,6 +4,9 @@ import yosemite from './Images/Yosemite.jpg';
 import cliffs from './Images/cliffs.jpg';
 import themoment from './Images/themoment.jpg';
 import oldWest from './Images/oldWest.jpg';
+import river from './Images/river.jpg';
+import joshuaTree from './Images/joshuaTree.jpg';
+import spikeyrocks from './Images/spikeyrocks.jpg';
 
 function App() {
   return (
@@ -57,7 +60,7 @@ function App() {
           <div className='visible-card'>
             <div
               className='visible-card-content'
-              style={{ backgroundImage: `url(${yosemite})` }}
+              style={{ backgroundImage: `url(${river})` }}
             >
             </div>
           </div>
@@ -65,7 +68,7 @@ function App() {
           <div className='visible-card'>
             <div
               className='visible-card-content'
-              style={{ backgroundImage: `url(${yosemite})` }}
+              style={{ backgroundImage: `url(${spikeyrocks})` }}
             >
             </div>
           </div>
@@ -73,7 +76,7 @@ function App() {
           <div className='visible-card'>
             <div
               className='visible-card-content'
-              style={{ backgroundImage: `url(${yosemite})` }}
+              style={{ backgroundImage: `url(${joshuaTree})` }}
             >
             </div>
           </div>
