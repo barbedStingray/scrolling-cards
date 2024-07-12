@@ -1,23 +1,88 @@
-import logo from './logo.svg';
 import './App.css';
+
+import yosemite from './Images/Yosemite.jpg';
+import cliffs from './Images/cliffs.jpg';
+import themoment from './Images/themoment.jpg';
+import oldWest from './Images/oldWest.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='parent'>
+        
+        <div className='scrollable-container'>
+          <a className='scrollable-card' href="/#"></a>
+          <a className='scrollable-card' href="/#"></a>
+          <a className='scrollable-card' href="/#"></a>
+          <a className='scrollable-card' href="/#"></a>
+          <a className='scrollable-card' href="/#"></a>
+          <a className='scrollable-card' href="/#"></a>
+          <a className='scrollable-card' href="/#"></a>
+        </div>
+
+        <div className='visible-cards-container'>
+
+          <div className='visible-card'>
+            <div
+              className='visible-card-content'
+              style={{ backgroundImage: `url(${yosemite})` }}
+            >
+            </div>
+          </div>
+
+          <div className='visible-card'>
+            <div
+              className='visible-card-content'
+              style={{ backgroundImage: `url(${themoment})` }}
+            >
+            </div>
+          </div>
+
+          <div className='visible-card'>
+            <div
+              className='visible-card-content'
+              style={{ backgroundImage: `url(${cliffs})` }}
+            >
+            </div>
+          </div>
+
+          <div className='visible-card'>
+            <div
+              className='visible-card-content'
+              style={{ backgroundImage: `url(${oldWest})` }}
+            >
+            </div>
+          </div>
+
+          <div className='visible-card'>
+            <div
+              className='visible-card-content'
+              style={{ backgroundImage: `url(${yosemite})` }}
+            >
+            </div>
+          </div>
+
+          <div className='visible-card'>
+            <div
+              className='visible-card-content'
+              style={{ backgroundImage: `url(${yosemite})` }}
+            >
+            </div>
+          </div>
+
+          <div className='visible-card'>
+            <div
+              className='visible-card-content'
+              style={{ backgroundImage: `url(${yosemite})` }}
+            >
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
     </div>
   );
 }
